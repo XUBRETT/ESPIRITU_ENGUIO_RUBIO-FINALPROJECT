@@ -1,18 +1,11 @@
-## Getting Started
+## XuMenu
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+ITCC 11.1B FINAL PROJECT - BRETT RAINIEL ESPIRITU, EMILIO RAFAEL RUBIO, NATHANIEL ENGUIO
 
-## Folder Structure
+## FEATURES
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+User Authentication: Users are required to log in with a username and password.
+Category and Item Selection: Items are categorized, and users can select items from different categories.
+Order Management: Users can add items to the order, remove items, and reset the order.
+Total Price Calculation: The application calculates the total price of the order based on the selected items and quantities.
+Database Integration: XUMenu integrates with a MySQL database to store user information, item details, and order history.
